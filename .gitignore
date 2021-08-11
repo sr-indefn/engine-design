@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# [PERSONAL ADDITION] Idk why, but I do this thing.
+package-lock.json

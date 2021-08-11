@@ -1,0 +1,25 @@
+{
+  "name": "engine-design",
+  "version": "1.0.0",
+  "description": "a prototype of browser canvas engine using p5.js and stuff, neither enormous nor promising.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sr-indefn/engine-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sr-indefn/engine-design/issues"
+  },
+  "homepage": "https://github.com/sr-indefn/engine-design#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
