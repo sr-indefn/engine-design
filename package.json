@@ -4,8 +4,8 @@
   "description": "a prototype of browser canvas engine using p5.js and stuff, neither enormous nor promising.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node ./source/server/index.js",
+    "dev": "nodemon ./source/server/index.js"
   },
   "repository": {
     "type": "git",
