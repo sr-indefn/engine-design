@@ -12,15 +12,14 @@
         <!-- ASSETS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
         <script type="module">
-            import { initEngine } from './utils/engine.js';
-            import { Default } from "./assets/default.js";
-
-            initEngine(600, 600, '#ffffff');
-            new Default();
+            import { EngineProcess } from './engine/main.js';
+            import { Main } from './assets/main.js';
+            
+            new EngineProcess(Main);
         </script>
         <!-- ASSETS -->
     </head>
     <body>
-        
+
     </body>
 </html>
